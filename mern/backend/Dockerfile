@@ -10,7 +10,7 @@ COPY . .
 
 EXPOSE 5050
 
-ENTRYPOINT['npm']
+ENTRYPOINT["npm"]
 
-CMD['start']
+CMD["start"]
 
