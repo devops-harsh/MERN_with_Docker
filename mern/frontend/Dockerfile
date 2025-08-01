@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 5173
 
-ENTRYPOINT['npm']
+ENTRYPOINT["npm"]
 
-CMD['run','dev']
+CMD["run","dev"]
